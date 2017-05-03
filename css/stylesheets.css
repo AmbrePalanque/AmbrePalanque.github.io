@@ -1,0 +1,682 @@
+@import url(https://fonts.googleapis.com/css?family=Cabin);
+
+body{
+  -webkit-scroll-snap-points-y: repeat(100%);
+  -webkit-scroll-snap-type: mandatory;
+  -moz-scroll-snap-points-y: repeat(100%);
+  -moz-scroll-snap-type: mandatory;
+  -ms-scroll-snap-points-y: repeat(100%);
+  -ms-scroll-snap-type: mandatory;
+  -o-scroll-snap-points-y: repeat(100%);
+  -o-scroll-snap-type: mandatory;
+  scroll-snap-points-y: repeat(100%);
+  scroll-snap-type: mandatory;
+}
+
+
+body, html {
+  position: relative;
+  min-height: 100vh;
+}
+
+.partone {
+  background-color: black;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.partone .title {
+  top: 75px;
+  margin: auto 0;
+  padding: 0 50px;
+  position: relative;
+  height: 264px;
+}
+
+.partone .title h1 {
+  margin: 0;
+  color: white;
+  font-size: 8vw;
+  font-family: Ramabhadra;
+  top: 50%;
+}
+
+@media screen and (max-width: 600px) {
+  .partone .title h1 {
+    font-size: 12vw;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .partone .title h1 {
+    font-size: 115px;
+  }
+}
+
+/* Mouse effect */
+
+.mouse_scroll *, .mouse_scroll *:before, .mouse_scroll *:after {
+  -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+}
+
+.mouse_scroll {
+	display: block;
+	margin: 0 auto 50px auto;
+	width: 24px;
+	height: 100px;
+	margin-top: 125px;
+}
+
+.m_scroll_arrows {
+  display: block;
+  width: 5px;
+  height: 5px;
+  -ms-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+  border-right: 2px solid white;
+  border-bottom: 2px solid white;
+  margin: 0 0 3px 4px;
+  width: 16px;
+  height: 16px;
+}
+
+
+.unu {
+  margin-top: 1px;
+}
+
+.unu, .doi, .trei {
+  -webkit-animation: mouse-scroll 1s infinite;
+  -moz-animation: mouse-scroll 1s infinite;
+}
+
+.unu {
+  -webkit-animation-delay: .1s;
+  -moz-animation-delay: .1s;
+  -webkit-animation-direction: alternate;
+}
+
+.doi {
+  -webkit-animation-delay: .2s;
+  -moz-animation-delay: .2s;
+  -webkit-animation-direction: alternate;
+  margin-top: -6px;
+}
+
+.trei {
+  -webkit-animation-delay: .3s;
+  -moz-animation-delay: .3s;
+  -webkit-animation-direction: alternate;
+  margin-top: -6px;
+}
+
+.mouse {
+  height: 42px;
+  width: 24px;
+  border-radius: 14px;
+  transform: none;
+  border: 2px solid white;
+  top: 170px;
+}
+
+.wheel {
+  height: 5px;
+  width: 2px;
+  display: block;
+  margin: 5px auto;
+  background: white;
+  position: relative;
+  height: 4px;
+  width: 4px;
+  border: 2px solid #fff;
+  -webkit-border-radius: 8px;
+  border-radius: 8px;
+}
+
+.wheel {
+  -webkit-animation: mouse-wheel 0.6s linear infinite;
+  -moz-animation: mouse-wheel 0.6s linear infinite;
+}
+
+@-webkit-keyframes mouse-wheel {
+   0% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translateY(6px);
+    -ms-transform: translateY(6px);
+    transform: translateY(6px);
+  }
+}
+
+@-moz-keyframes mouse-wheel {
+  0% {top: 1px;}
+  25% {top: 2px;}
+  50% {top: 3px;}
+  75% {top: 2px;}
+  100% {top: 1px;}
+}
+
+@-webkit-keyframes mouse-scroll {
+  0% {opacity: 0;}
+  50% {opacity: .5;}
+  100% {opacity: 1;}
+}
+
+@-moz-keyframes mouse-scroll {
+  0% {opacity: 0;}
+  50% {opacity: .5;}
+  100% {opacity: 1;}
+}
+
+@-o-keyframes mouse-scroll {
+  0% {opacity: 0;}
+  50% {opacity: .5;}
+  100% {opacity: 1;}
+}
+
+@keyframes mouse-scroll {
+  0% {opacity: 0;}
+  50% {opacity: .5;}
+  100% {opacity: 1;}
+}
+
+/* ------------ */
+
+.second {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.project {
+  flex-grow: 1;
+  margin: 0;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.project .dev, .project .design{
+  width: 50%;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.project .dev {
+  background-color: black;
+  color: white;
+}
+
+.project h2 {
+  margin: auto 0;
+  font-size: 5vw;
+}
+
+@media screen and (min-width: 1440px) {
+  .project h2 {
+    font-size: 72px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .project .dev, .project .design {
+    width: 100%;
+  }
+
+  .project h2 {
+    font-size: 10vw;
+  }
+}
+
+.project .design {
+  background-color: white;
+  color: black;
+}
+/*HOVER ANIMATION */
+
+a {
+  font-size: 2em;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 0.1em;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+
+a:focus {
+  text-decoration: none;
+}
+
+.btn-draw {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  overflow: hidden;
+  transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out;
+}
+
+.dev .btn-draw {
+  color: white;
+  border-bottom: 2px solid #ffffff;
+}
+
+.design .btn-draw {
+  color: black;
+  border-bottom: 2px solid #000000;
+}
+.btn-draw:after {
+  content: '';
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  height: 100%;
+  width: 2px;
+  transform: translateY(100%);
+  transition: transform 0.2s ease-in-out;
+  transition-delay: 0.6s;
+}
+
+.dev .btn-draw:after {
+  background: #ffffff;
+}
+
+.design .btn-draw:after {
+  background: #000000;
+}
+
+.btn-draw > span {
+  position: relative;
+  display: block;
+  padding: 0.5em;
+  color: inherit;
+}
+.btn-draw > span:before, .btn-draw > span:after {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  background: red;
+  transition: transform 0.2s ease-in-out;
+}
+
+.design .btn-draw > span:before, .design .btn-draw > span:after {
+  background: #000000;
+}
+
+.dev .btn-draw > span:before, .dev .btn-draw > span:after {
+  background: #ffffff;
+}
+
+.btn-draw > span:before {
+  height: 2px;
+  width: 100%;
+  transform: translateX(100%);
+  transition-delay: 0.4s;
+}
+
+.btn-draw > span:after {
+  height: 100%;
+  width: 2px;
+  transform: translateY(-100%);
+  transition-delay: 0.2s;
+}
+
+.btn-draw:hover:after, .btn-draw:hover > span:before, .btn-draw:hover > span:after {
+  transform: translate(0, 0);
+}
+
+.btn-draw:hover:after {
+  transition-delay: 0s;
+}
+
+.btn-draw:hover > span:before {
+  transition-delay: 0.2s;
+}
+
+.btn-draw:hover > span:after {
+  transition-delay: 0.4s;
+}
+
+.btn-draw:hover {
+  transition-delay: 0.6s;
+}
+
+.dev .btn-draw:hover {
+  color: #000000;
+  background-color: #ffffff;
+}
+
+.design .btn-draw:hover {
+  color: #ffffff;
+  background-color: #000000;
+}
+
+/*------------------------------------*/
+/*ANIMATION CSS I WORK WITH*/
+
+.taff {
+  flex-shrink: 0;
+  background: black;
+}
+
+.taff .content {
+  height: 100px;
+  margin: 0 auto;
+  font-size: 35px;
+  line-height: 40px;
+  font-family: 'Lato', sans-serif;
+  color: #ecf0f1;
+  overflow:hidden;
+  text-align: center;
+}
+
+.content .visible {
+  font-weight:600;
+  overflow:hidden;
+  height: 40px;
+  margin: 30px 0;
+  padding:0 30px;
+  position: relative;
+  text-align: left;
+  display: inline-block;
+}
+
+.content .visible::after, .visible::before {
+  content:'-';
+  color:#af8489;
+  top: 0;
+  line-height:40px;
+  font-size:42px;
+  position: absolute;
+  animation-name: opacity;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+.content .visible::before {
+  left: 0;
+}
+
+.content .visible::after {
+  right: 0;
+}
+
+.content .visible p {
+  display:inline;
+  float:left;
+  margin:0;
+}
+
+.content .visible ul {
+  margin-top:0;
+  padding-left:195px;
+  text-align:left;
+  list-style:none;
+  animation-name: change;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+}
+
+.content .visible ul li {
+  line-height:40px;
+  margin:0;
+}
+
+@media screen and (max-width: 600px) {
+  .taff .content {
+    font-size: 20px;
+  }
+
+  .content .visible ul {
+    padding-left:110px;
+  }
+}
+
+@keyframes opacity {
+  0%, 100% {opacity:0;}
+  50% {opacity:1;}
+}
+
+@keyframes change {
+  0%, 7.5%, 100% {transform:translateY(0);}
+  12.5%,20% {transform:translateY(-13%);}
+  25%,32.5% {transform:translateY(-26%);}
+  37.5%,45% {transform:translateY(-38%);}
+  50%,57.5% {transform:translateY(-51%);}
+  62.5%,70% {transform:translateY(-63%);}
+  75%,82.5% {transform:translateY(-76%);}
+  87.5%,95% {transform:translateY(-88%);}
+}
+
+/*-------------------------------------------------------*/
+ .about {
+  min-height: 100vh;
+  margin: 0;
+  background: white;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.about-all {
+  width: 50%;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.wrapper {
+  max-width: 500px;
+  margin: auto 0;
+  padding: 40px;
+}
+
+.about-title h2{
+  font-size: 80px;
+  margin: 0;
+  padding-bottom: 20px;
+}
+
+
+.about-txt p{
+  text-align: justify;
+  font-size: 15px;
+  padding-bottom: 20px;
+}
+
+.about-txt strong{
+  font-weight: normal;
+}
+
+.so_social {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0;
+  color: transparent;
+  margin-bottom: 40px;
+}
+
+.social {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+}
+
+
+.social.linkedin {
+  background-image: url('../img/linkedin.svg');
+}
+
+.social.linkedin:hover {
+  background-image: url('../img/linkedin.svg');
+}
+
+.social.pinterest {
+  background-image: url('../img/pinterest.svg');
+}
+
+.social.instagram {
+  background-image: url('../img/instagram.svg');
+}
+
+.social.facebook {
+  background-image: url('../img/facebook.svg');
+}
+
+.social.mail {
+  background-image: url('../img/mail.svg');
+}
+
+.book {
+  text-align: center;
+}
+
+.book--bouton {
+  color: #af8489;
+}
+
+.book--bouton:hover {
+  color: #7f585d;
+}
+
+.photo {
+  width: 50%;
+  min-height: 100%;
+  flex-shrink: 0; /*Parent flex peut changer la largeur d'un element, permet donc de ne faire aucun changement sur la largeur*/
+  background: url(../img/me.png);
+  background-size: cover;
+  background-position: right center;
+  /*border: 10px solid white;*/
+}
+
+@media screen and (max-width: 1000px) {
+  .about-title h2 {
+    font-size: 7vw;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .about {
+    flex-direction: column-reverse;
+    justify-content: flex-end;
+  }
+  .about-all, .photo {
+    width: 100%;
+  }
+  .photo {
+    height: 200px;
+  }
+  .about-title {
+  margin-top: -180px;
+  position: relative;
+  z-index: 2;
+  }
+
+  .about-title h2 {
+    font-size: 56px;
+    width: 160px;
+    color: white;
+    padding-bottom: 50px;
+  }
+  .about-txt p {
+    text-align: left;
+  }
+}
+
+/*-------DEVELOPMENT & DESIGN--------------*/
+.retour a{
+  display: block;
+  padding-left: 50px;
+  color: #d8d8d8;
+
+}
+
+.retour a:hover{
+  display: block;
+}
+
+.retour a::before {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  background-image: url('../img/left-arrow-bleu.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
+  transition: 0.3s;
+  opacity: 0;
+}
+
+.retour a:hover::before{
+  transform: translateX(-50px);
+  opacity: 1;
+
+}
+
+.works {
+  background-color: white;
+  width: 690px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.wrap {
+    margin: 0 0;
+}
+
+.work-preview {
+  width: 690px;
+  height: 640px;
+  background: url(../img/couv.png);
+  background-size: cover;
+  background-position: center;
+  margin: 0;
+}
+
+.work-list {
+ padding:0;
+ margin: 20px 0 0 0;
+ list-style-type:none;
+ display: flex;
+ justify-content: space-between;
+ }
+
+.work {
+ float:left; /*pour IE*/
+ }
+
+.work-list .work a {
+  color: #d8d8d8;
+ display:block;
+ float:left;
+ text-decoration:none;
+ text-align:center;
+ }
+
+ .work-list .work a:hover {
+   color: #c1c1c1;
+  }
