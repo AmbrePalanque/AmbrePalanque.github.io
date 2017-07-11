@@ -369,6 +369,12 @@ a:focus {
 /*------------------------------------*/
 /*ANIMATION CSS I WORK WITH*/
 
+@media screen and (max-width: 600px) {
+  .taff {
+    display: none;
+  }
+}
+
 .taff {
   flex-shrink: 0;
   background: black;
@@ -603,6 +609,9 @@ a:focus {
 }
 
 /*-------DEVELOPMENT & DESIGN--------------*/
+
+@media screen and (min-width: 600px) {
+
 .retour a{
   display: block;
   padding-left: 50px;
@@ -636,7 +645,7 @@ a:focus {
 
 .works {
   background-color: white;
-  width: 690px;
+  width: 70%;
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -680,3 +689,5 @@ a:focus {
  .work-list .work a:hover {
    color: #c1c1c1;
   }
+
+}

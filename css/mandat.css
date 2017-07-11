@@ -5,6 +5,7 @@ html{
     min-height: 100%;
 }
 body{
+  min-width: 320px;
   font-family:Cabin;
   font-size: 16px;
   color: white;
@@ -65,12 +66,17 @@ body{
   padding-bottom: 20px;
 }
 
+.presentation {
+  font-size: 16px;
+}
+
+
 .slide-2{
   margin-bottom: 20px;
 }
 
 .slide-2 img {
-  width: 70%;
+  max-height: 500px;
 }
 
 .slide-2 p {
