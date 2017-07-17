@@ -615,7 +615,7 @@ a:focus {
 .retour a{
   display: block;
   padding-left: 50px;
-  color: #d8d8d8;
+  color: #c2c2c2;
 
 }
 
@@ -645,7 +645,7 @@ a:focus {
 
 .works {
   background-color: white;
-  width: 70%;
+  width: 690px;
   height: 100vh;
   display: flex;
   flex-direction: column;

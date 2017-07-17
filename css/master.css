@@ -50,8 +50,6 @@ body{
 .slide-1 {
   color: #5b5b5b;
   margin-top: 30px;
-  padding-left: 40px;
-  padding-right: 40px;
   padding-bottom: 50px;
   }
 
@@ -63,12 +61,13 @@ body{
 
 
 .slide-2{
-  margin-bottom: 20px;
+  margin: 0 0 0 0;
 }
 
 .slide-2 img {
   height: 100%;
   width: 100%;
+  margin-bottom: 20px;
 }
 
 .slide-2 p {
