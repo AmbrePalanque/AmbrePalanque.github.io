@@ -279,6 +279,9 @@ a:focus {
   color: black;
   border-bottom: 2px solid #000000;
 }
+
+@media screen and (min-width: 600px) {
+
 .btn-draw:after {
   content: '';
   position: absolute;
@@ -364,6 +367,7 @@ a:focus {
 .design .btn-draw:hover {
   color: #ffffff;
   background-color: #000000;
+}
 }
 
 /*------------------------------------*/
