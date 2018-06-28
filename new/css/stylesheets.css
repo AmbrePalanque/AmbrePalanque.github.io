@@ -99,6 +99,10 @@ h3::after{
   margin-bottom: 5px;
 }
 
+.containerB{
+  margin-top: 30px;
+}
+
 .containerB .placement{
   width: 400px;
   position: relative;
@@ -122,7 +126,7 @@ h3::after{
   font-weight: 300;
   color: black;
 }
-
+/*
 #contact a:hover::after{
   content: '';
   background-color: black;
@@ -130,7 +134,7 @@ h3::after{
   width: 70px;
   margin-top: 20px;
   display: block;
-}
+} */
 
 canvas{
   position: absolute;
