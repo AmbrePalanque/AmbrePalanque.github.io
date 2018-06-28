@@ -5,7 +5,6 @@ h1{
 
 h2{
   margin-left: 20px;
-  text-align: left;
 }
 
 .titre,
@@ -14,7 +13,7 @@ h2{
   text-transform: lowercase;
   font-family: Roboto Slab;
   font-weight: 300;
-  font-size: 40px;
+  font-size: 30px;
 }
 
 .containerA{
@@ -30,7 +29,7 @@ h2{
   margin-top: 20px;
   text-align: right;
   font-family: Roboto slab;
-  font-size: 16px;
+  font-size: 12px;
 }
 
 .titre span{
@@ -47,10 +46,16 @@ h2{
   width: 100vw;
 }
 
-canvas{
-  position: absolute;
-  top: 0;
-  width: 100vw;
-  height: 100vh;
-  z-index: -1;
+h3{
+  font-family: Roboto Slab;
+  font-weight: 400;
+  font-size: 25px;
+}
+
+h3::after{
+  content: '';
+  background-color: black;
+  height: 2px;
+  width: 20px;
+  display: block;
 }
