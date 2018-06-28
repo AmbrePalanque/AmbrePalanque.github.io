@@ -59,3 +59,11 @@ h3::after{
   width: 20px;
   display: block;
 }
+
+canvas{
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+}
