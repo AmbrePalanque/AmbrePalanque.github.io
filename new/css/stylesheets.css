@@ -65,6 +65,7 @@ h3{
 }
 
 h4{
+  margin-bottom: 15px;
   font-family: Roboto Slab;
   font-weight: 400;
   font-size: 20px;
@@ -92,6 +93,12 @@ h3::after{
   width: 70px;
   margin-top: 20px;
   display: block;
+}
+
+#cv p{
+  font-family: Roboto Slab;
+  font-weight: 300;
+  margin-bottom: 5px;
 }
 
 canvas{
