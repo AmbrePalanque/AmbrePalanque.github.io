@@ -110,6 +110,16 @@ h3::after{
   left: 60%;
 }
 
+#contact {
+  width: 100vw;
+}
+
+#contact a{
+  font-family: Roboto Slab;
+  font-weight: 300;
+  text-align: center;
+}
+
 canvas{
   position: absolute;
   z-index: -1;
