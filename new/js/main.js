@@ -4,7 +4,7 @@ document.body.appendChild(app.view);
 // holder to store the aliens
 var aliens = [];
 
-var totalDudes = 20;
+var totalDudes = 30;
 
 for (var i = 0; i < totalDudes; i++) {
 
@@ -29,7 +29,7 @@ for (var i = 0; i < totalDudes; i++) {
     dude.turningSpeed = Math.random() - 0.8;
 
     // create a random speed for the dude between 0 - 2
-    dude.speed = 2 + Math.random() * 2;
+    dude.speed = 0.1 + Math.random() * 0.1;
 
     // finally we push the dude into the aliens array so it it can be easily accessed later
     aliens.push(dude);
