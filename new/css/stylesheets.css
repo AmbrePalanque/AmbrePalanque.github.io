@@ -112,12 +112,24 @@ h3::after{
 
 #contact {
   width: 100vw;
+  text-align: center;
+  height: 50px;
+  line-height: 50px;
 }
 
 #contact a{
   font-family: Roboto Slab;
   font-weight: 300;
-  text-align: center;
+  color: black;
+}
+
+#contact a:hover::after{
+  content: '';
+  background-color: black;
+  height: 2px;
+  width: 70px;
+  margin-top: 20px;
+  display: block;
 }
 
 canvas{
