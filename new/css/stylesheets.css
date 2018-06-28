@@ -99,11 +99,7 @@ h3::after{
   margin-bottom: 5px;
 }
 
-#experiences{
-  text-align: right;
-}
-
-.containerB div{
+.containerB{
   width: 800px;
   position: relative;
   left: 50%;
