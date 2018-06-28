@@ -21,8 +21,6 @@ for (var i = 0; i < totalDudes; i++) {
     dude.x = Math.random() * app.screen.width;
     dude.y = Math.random() * app.screen.height;
 
-    dude.tint = Math.random() * 0xFFFFFF;
-
     // create some extra properties that will control movement :
     // create a random direction in radians. This is a number between 0 and PI*2 which is the equivalent of 0 - 360 degrees
     dude.direction = Math.random() * Math.PI * 2;
