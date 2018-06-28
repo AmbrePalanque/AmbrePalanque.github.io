@@ -1,4 +1,4 @@
-var app = new PIXI.Application();
+var app = new PIXI.Application({backgroundColor : 0xffffff});
 document.body.appendChild(app.view);
 
 // holder to store the aliens
