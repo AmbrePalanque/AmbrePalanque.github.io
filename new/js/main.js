@@ -11,7 +11,7 @@ for (var i = 0; i < totalTraits; i++) {
 
     trait.anchor.set(0.5);
 
-    // trait.scale.set(0.1);
+    trait.scale.set(0.1);
 
     trait.x = Math.random() * app.screen.width;
     trait.y = Math.random() * app.screen.height;
