@@ -56,8 +56,12 @@ h3{
   margin-left: 50px;
 }
 
+.liste div h4:first-child{
+  margin-top: 20px;
+}
+
 h4{
-  margin-top: 40px;
+  margin-bottom: 40px;
   font-family: Roboto Slab;
   font-weight: 400;
   font-size: 20px;
@@ -82,7 +86,7 @@ h3::after{
   content: '';
   background-color: black;
   height: 2px;
-  width: 60%;
+  width: 70px;
   margin-top: 20px;
   display: block;
 }
