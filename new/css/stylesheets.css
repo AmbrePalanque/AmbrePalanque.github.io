@@ -99,11 +99,15 @@ h3::after{
   margin-bottom: 5px;
 }
 
-.containerB{
-  width: 800px;
+.containerB div{
+  width: 400px;
   position: relative;
-  left: 50%;
+  left: 40%;
   transform: translateX(-50%);
+}
+
+#experiences{
+  left: 60%;
 }
 
 canvas{
