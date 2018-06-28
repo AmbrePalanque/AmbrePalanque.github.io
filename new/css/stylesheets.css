@@ -62,6 +62,16 @@ h4{
   font-size: 20px;
 }
 
+h4::before{
+  content: '';
+  background-color: #b8e1f1;
+  height: 5px;
+  width: 5px;
+  border-radius: 5px;
+  margin-top: 20px;
+  display: block;
+}
+
 h3::after{
   content: '';
   background-color: black;
