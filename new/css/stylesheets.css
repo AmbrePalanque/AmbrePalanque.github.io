@@ -99,7 +99,7 @@ h3::after{
   margin-bottom: 5px;
 }
 
-.containerB div{
+.containerB .placement{
   width: 400px;
   position: relative;
   left: 40%;
