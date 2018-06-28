@@ -103,7 +103,7 @@ h3::after{
   width: 400px;
   position: relative;
   left: 40%;
-  transform: translateX(-50%);
+  /* transform: translateX(-50%); */
 }
 
 #experiences{
