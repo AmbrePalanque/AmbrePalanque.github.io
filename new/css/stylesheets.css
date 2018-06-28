@@ -102,7 +102,7 @@ h3::after{
 .containerB .placement{
   width: 400px;
   position: relative;
-  left: 40%;
+  left: 30%;
   /* transform: translateX(-50%); */
 }
 
