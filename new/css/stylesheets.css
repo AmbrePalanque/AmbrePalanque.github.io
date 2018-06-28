@@ -99,6 +99,13 @@ h3::after{
   margin-bottom: 5px;
 }
 
+.containerB{
+  width: 800px;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
 canvas{
   position: absolute;
   z-index: -1;
