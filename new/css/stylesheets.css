@@ -56,10 +56,6 @@ h3{
   margin-left: 50px;
 }
 
-.liste div h4:first-child{
-  margin-top: 20px;
-}
-
 .liste div{
   margin-bottom: 40px;
 }
@@ -70,6 +66,8 @@ h4{
   font-weight: 400;
   font-size: 20px;
   position: relative;
+  max-width: 255px;
+  margin-top: 20px;
 }
 
 h4::before{
