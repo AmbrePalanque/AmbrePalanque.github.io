@@ -124,7 +124,7 @@ h3::after{
   width: 100%;
 }
 
-.containerB .placement .side::before{
+.containerB .placement .side img::before{
   content: '';
   display: block;
   position: relative;
