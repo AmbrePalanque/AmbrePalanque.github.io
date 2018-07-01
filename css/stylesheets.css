@@ -103,12 +103,20 @@ h3::after{
   margin-top: 30px;
 }
 
-.containerB .placement{
-  width: 400px;
+.containerB{
+  width: 800px;
   position: relative;
-  left: 20%;
-  /* transform: translateX(-50%); */
+  left: 50%;
+  transform: translateX(-50%);
 }
+.containerB .placement{
+  width: 100%;
+  position: relative;
+}
+.containerB .placement .side{
+    width: 50%;
+    position: relative;
+  }
 
 #experiences{
   left: 60%;
