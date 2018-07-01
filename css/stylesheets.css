@@ -120,15 +120,15 @@ h3::after{
     position: relative;
     display: inline-block;
   }
-.containerB .placement .side p img{
+.containerB .placement .side .beforeimg img{
   width: 100%;
 }
 
-.containerB .placement .side p{
+.containerB .placement .side .beforeimg{
   width: 100%;
 }
 
-.containerB .placement .side p::before{
+.containerB .placement .side .beforeimg::before{
   content: '';
   display: block;
   position: relative;
