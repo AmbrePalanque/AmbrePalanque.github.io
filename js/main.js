@@ -58,3 +58,10 @@ app.ticker.add(function() {
         }
     }
 });
+
+$(document).ready(function(){
+
+  var img1_part1 = "../img/mmibordeaux.jpg";
+  var img2_part1 = "../img/larochelle.jpg";
+
+});
