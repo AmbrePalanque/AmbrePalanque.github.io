@@ -140,6 +140,19 @@ h3::after{
   border: 7px solid black;
 }
 
+.containerB #experiences .side .beforeimg::before{
+  content: '';
+  display: block;
+  position: absolute;
+  height: 195px;
+  z-index: -2;
+  left: -12%;
+  top: -40px;
+  width: 400px;
+  border: 7px solid black;
+}
+
+
 /* #experiences{
   justify-content: flex-end;
 } */
