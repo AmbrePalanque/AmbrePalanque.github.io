@@ -63,14 +63,14 @@ app.ticker.add(function() {
 $(function(){
         //prepare Your data array with img urls
         var firstArray=new Array();
-        firstArray[0]="../img/mmibordeaux.jpg";
-        firstArray[1]="../img/larochelle.jpg";
-        firstArray[2]="../img/nantes.jpg";
+        firstArray[0]="../img/larochelle.jpg";
+        firstArray[1]="../img/nantes.jpg";
+        firstArray[2]="../img/mmibordeaux.jpg";
 
         var secondArray=new Array();
-        secondArray[0]="../img/gala.jpg";
-        secondArray[1]="../img/paul_sab.jpg";
-        secondArray[2]="../img/nantes.jpg";
+        secondArray[0]="../img/paul_sab.jpg";
+        secondArray[1]="../img/toulouse.jpg";
+        secondArray[2]="../img/gala.jpg";
 
         var thirdArray=new Array();
         thirdArray[0]="../img/mmibordeaux.jpg";
