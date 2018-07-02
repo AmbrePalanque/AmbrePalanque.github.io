@@ -86,6 +86,6 @@ $(function(){
             $('#expImg').attr('src',secondArray[thisId]);
             $('#compImg').attr('src',thirdArray[thisId]);
             thisId++; //increment data array id
-            if (thisId==2) thisId=0; //repeat from start
+            if (thisId==3) thisId=0; //repeat from start
         },5000);
     });
