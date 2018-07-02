@@ -81,7 +81,7 @@ $(function(){
         var thisId=0;
 
         window.setInterval(function(){
-            $('#formImg').attr('src',dataArray[thisId]);
+            $('#formImg').attr('src',firstArray[thisId]);
             $('#expImg').attr('src',secondArray[thisId]);
             $('#compImg').attr('src',thirdArray[thisId]);
             thisId++; //increment data array id
