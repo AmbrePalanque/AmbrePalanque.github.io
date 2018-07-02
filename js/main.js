@@ -69,7 +69,7 @@ $(function(){
 
         var secondArray=new Array();
         secondArray[0]="../img/gala.jpg";
-        secondArray[1]="../img/larochelle.jpg";
+        secondArray[1]="../img/paul_sab.jpg";
         secondArray[2]="../img/nantes.jpg";
 
         var thirdArray=new Array();
