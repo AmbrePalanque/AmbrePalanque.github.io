@@ -140,9 +140,9 @@ h3::after{
   border: 7px solid black;
 }
 
-#experiences{
+/* #experiences{
   justify-content: flex-end;
-}
+} */
 
 #contact {
   width: 100vw;
