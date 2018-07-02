@@ -62,7 +62,17 @@ app.ticker.add(function() {
 
 $(function(){
         //prepare Your data array with img urls
-        var dataArray=new Array();
+        var firstArray=new Array();
+        dataArray[0]="../img/mmibordeaux.jpg";
+        dataArray[1]="../img/larochelle.jpg";
+        dataArray[2]="../img/nantes.jpg";
+
+        var secondArray=new Array();
+        dataArray[0]="../img/mmibordeaux.jpg";
+        dataArray[1]="../img/larochelle.jpg";
+        dataArray[2]="../img/nantes.j";
+
+        var thirdArray=new Array();
         dataArray[0]="../img/mmibordeaux.jpg";
         dataArray[1]="../img/larochelle.jpg";
         dataArray[2]="../img/nantes.j";
@@ -72,6 +82,8 @@ $(function(){
 
         window.setInterval(function(){
             $('#formImg').attr('src',dataArray[thisId]);
+            $('#expImg').attr('src',secondArray[thisId]);
+            $('#compImg').attr('src',thirdArray[thisId]);
             thisId++; //increment data array id
             if (thisId==2) thisId=0; //repeat from start
         },5000);
