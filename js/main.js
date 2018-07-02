@@ -68,7 +68,7 @@ $(function(){
         firstArray[2]="../img/nantes.jpg";
 
         var secondArray=new Array();
-        secondArray[0]="../img/mmibordeaux.jpg";
+        secondArray[0]="../img/gala.jpg";
         secondArray[1]="../img/larochelle.jpg";
         secondArray[2]="../img/nantes.jpg";
 
