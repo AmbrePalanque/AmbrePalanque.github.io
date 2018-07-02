@@ -70,12 +70,12 @@ $(function(){
         var secondArray=new Array();
         secondArray[0]="../img/mmibordeaux.jpg";
         secondArray[1]="../img/larochelle.jpg";
-        secondArray[2]="../img/nantes.j";
+        secondArray[2]="../img/nantes.jpg";
 
         var thirdArray=new Array();
         thirdArray[0]="../img/mmibordeaux.jpg";
         thirdArray[1]="../img/larochelle.jpg";
-        thirdArray[2]="../img/nantes.j";
+        thirdArray[2]="../img/nantes.jpg";
 
         //start with id=0 after 5 seconds
         var thisId=0;
