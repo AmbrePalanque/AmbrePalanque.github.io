@@ -59,9 +59,20 @@ app.ticker.add(function() {
     }
 });
 
-$(document).ready(function(){
 
-  var img1_part1 = "../img/mmibordeaux.jpg";
-  var img2_part1 = "../img/larochelle.jpg";
+$(function(){
+        //prepare Your data array with img urls
+        var dataArray=new Array();
+        dataArray[0]="../img/mmibordeaux.jpg";
+        dataArray[1]="../img/larochelle.jpg";
+        dataArray[2]="../img/nantes.j";
 
-});
+        //start with id=0 after 5 seconds
+        var thisId=0;
+
+        window.setInterval(function(){
+            $('#formImg').attr('src',dataArray[thisId]);
+            thisId++; //increment data array id
+            if (thisId==2) thisId=0; //repeat from start
+        },5000);
+    });

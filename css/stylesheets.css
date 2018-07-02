@@ -174,16 +174,6 @@ canvas{
   height: 100vh;
 }
 
-
-/* COLORS
-
-rouge-bordeaux : #8b0e2e;
-bleu : #b8e1f1;
-
- */
-
-
-
  /* ANIMATION */
 
  @-webkit-keyframes fadeInLeft {
@@ -252,3 +242,10 @@ bleu : #b8e1f1;
    -webkit-animation-name: fadeInRight;
    animation-name: fadeInRight;
  }
+
+ /* COLORS
+
+ rouge-bordeaux : #8b0e2e;
+ bleu : #b8e1f1;
+
+  */
