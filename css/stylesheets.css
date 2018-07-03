@@ -114,6 +114,7 @@ h3::after{
   position: relative;
   display: flex;
   align-items: center;
+  margin-bottom: 30px;
 }
 .containerB .placement .side{
     width: 50%;
@@ -186,6 +187,12 @@ canvas{
   width: 100vw;
   height: 100vh;
 }
+
+
+.containerB #experiences .side {
+  margin-left: 80px;
+}
+
 
  /* ANIMATION */
 
