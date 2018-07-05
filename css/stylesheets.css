@@ -5,6 +5,7 @@ h1{
 
 h2{
   margin-left: 20px;
+  text-align: left;
 }
 
 .titre,
@@ -261,6 +262,12 @@ canvas{
  .fadeInRight {
    -webkit-animation-name: fadeInRight;
    animation-name: fadeInRight;
+ }
+
+ @media screen and (max-width: 1280px){
+  canvas{
+    display: none;
+  }
  }
 
  /* COLORS
