@@ -17,7 +17,7 @@ module.exports = {
       repo: "git@github.com:AmbrePalanque/AmbrePalanque.github.io.git",
       path: "/var/www/website",
       "pre-deploy-local": "",
-      "post-deploy": "",
+      "post-deploy": "pm2 reload ecosystem.config.js --env production && pm2 save",
       "pre-setup": "",
     },
   },
