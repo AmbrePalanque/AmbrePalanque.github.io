@@ -3,7 +3,7 @@ module.exports = {
     {
       port: 3000,
       name: "website",
-      script: "sudo serve -l tcp://0.0.0.0:80", 
+      script: "sudo serve -l tcp://0.0.0.0:80 /var/www/website/current", 
       exec_mode: "cluster", 
     },
   ],
