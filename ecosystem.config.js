@@ -1,4 +1,12 @@
 module.exports = {
+  apps: [
+    {
+      port: 3000,
+      name: "website",
+      script: "sudo serve -l tcp://0.0.0.0:80", 
+      exec_mode: "cluster", 
+    },
+  ],
   deploy: {
     production: {
       user: "ubuntu",
@@ -8,7 +16,7 @@ module.exports = {
       repo: "git@github.com:AmbrePalanque/AmbrePalanque.github.io.git",
       path: "/var/www/website",
       "pre-deploy-local": "",
-      "post-deploy": "sudo serve -l tcp://0.0.0.0:80",
+      "post-deploy": "pm2 reload ecosystem.config.js --env production && pm2 save",
       "pre-setup": "",
     },
   },
